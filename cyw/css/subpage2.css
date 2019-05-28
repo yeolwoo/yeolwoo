@@ -1,0 +1,30 @@
+.gnbmeun{height: 70px;}
+.gnbmeun h2{float: left;text-align: center;line-height: 70px;font-size: 20px;}
+.gnbmeun ul{float: right}
+.gnbmeun ul li{float: left;line-height: 70px;padding-left: 15px;;font-size: 12px;background: url(../img_sub1/direction.png)no-repeat right center;padding-right: 15px;}
+.gnbmeun ul li:last-child{background: none;}
+
+.mainbanner{min-height: 650px;}
+.maincarimg{width: 100%;}
+.maingnb-box{width: 100%;height: 60px;background: #35445c;}
+.maincarimg_text{position: relative}
+.maincarimg_text>li{float: left;text-align: center;line-height: 60px;width: 240px;}
+.maincarimg_text>li>a{color: #fff;width:240px;height: 60px;display: block;}
+.maincarimg_text>li:hover>a{background: #fff;color: #000;}
+.maincarimg_car{padding-top: 0px;position: absolute;left: 0;top:100px;display: none;}
+.maincarimg_text>li:nth-child(1)>.maincarimg_car{display: block;}
+.maincarimg_car>ul>li{float: left;margin-right: 100px;}
+
+.estimate_box{width: 1200px;height: 335px;background: #ddd;position: relative;z-index: 5000;display:  none;text-align: left}
+.estimate_box>a{display: block;position: absolute;right: 20px;top:20px;}
+.estimate_box>img{float: left;position: absolute;left: 50px;top: 40px;}
+.estimate_boxtex{float:right;margin-right: 50px;}
+.estimate_boxtex>h2{font-size: 30px;padding-top: 20px;padding-bottom: 20px}
+.estimate_text{width: 700px;height: 40px;background: #35445c;}
+.estimate_text>h3{line-height: 40px;padding-left:30px;}
+.estimate_text>h3>a{display: block;color: #fff;font-size: 16px;}
+.estimate_boxbottom{background:#5c6d88 }
+
+
+
+.footer{margin-top: 500px;}

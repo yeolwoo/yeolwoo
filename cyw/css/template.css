@@ -1,0 +1,71 @@
+@charset 'utf-8';
+@import url(reset.css);
+
+.center{width: 1200px;margin: auto}
+
+
+.util{width: 100%;border-bottom: 1px solid #000;height: 30px}
+.utilsub{height: 30px;width: 200px;float:right}
+.utilsub li{font-size: 11px;margin-right: 20px;height: 30px;line-height: 30px;float: left;}
+/*유틸영역*/
+
+.gnb{border-bottom: 1px solid #ddd;width: 100%;position: relative;}
+.maingnbheader{height: 70px;position: relative}
+.maingnbheader h1{float: left;margin-right: 50px;margin-top: 15px;}
+.maingnbheader img{width:70px;}
+.maingnb>li{float: left;height: 70px;margin-left: 50px;line-height: 70px;text-align: center}
+.maingnb>li>a{font-size: 14px;font-weight: bold;}
+.maingnb>li:hover>a{color: #bcba83;}
+/*gnb영역*/
+
+.gnbbg{background: #fff;width: 100%;height: 300px;position: absolute;top: 71px;left: 0;display: none;z-index:2000;}
+.allgnbbg{background: #fff;width: 100%;height: 300px;position: absolute;top: 71px;left: 0;display: none;z-index: 1900;}
+
+.subgnb{height: 330px;width: 1200px;position: relative;}
+.subgnb>li{width: 300px;height: 50px;line-height: 50px;text-align: center;float: left}
+.subgnb>li>a{display:block;width: 300px;height: 50px;background: #bcba83;}
+.subgnb>li:hover>a{background: #164288;color: #fff;}
+/*.subgnb>li.on>a{background: #164288;color: #fff;}*/
+.subgnb>li{display: none}
+/*2댑스 영역*/
+.subgnb>li:first-child>.subcar{display: block}
+.subcar{position: absolute;left: 0;top:50px;/*background: #fff*/;width: 100%;height: 250px;padding-top: 60px;box-sizing: border-box;display: none}
+.subcar>li{float: left;width: 240px;height: 140px;}
+.subcar>li>a{display: block;height: }
+.subcar>li img{width: 200px;}
+s
+.subgnb>li:nth-child(1)>.subcar{height: 140px}
+/*서브이미지 영역*/
+
+.subgnb2{width:144;overflow: hidden;position: absolute;left: 0;top: 70px;display: none;z-index: 2000;}
+.subgnb2>li{width: 144px;height: 50px;;font-size: 12px;line-height: 50px;text-align: center;float: left;}
+.subgnb2>li:hover>a{color: #bcba83;}
+.subgnb2.subgnbtxt1{left:100px;}
+.subgnb2.subgnbtxt2{left:100px;}
+.subgnb2.subgnbtxt3{left:280px;}
+.subgnb2.subgnbtxt4{left:540px;}
+.subgnb2.subgnbtxt5{left:650px;}
+.subgnb2.subgnbtxt6{left:300px;}
+/*서브 1댑스 영역*/
+
+.footer{height: 150px;border-top: 1px solid #ddd;}
+.footer h1{float: left;}
+.footer h1 img{width: 70px;padding-right: 30px;padding-top: 30px}
+.footer ul{overflow: hidden;padding-top: 20px;}
+.footer ul li{float: left;padding-right: 25px;margin-right: 25px; background: url(../img/line.png)no-repeat right center}
+.footer p:nth-of-type(1){float: right;font-weight: bold;font-size: 14px}
+.footer p:nth-of-type(2){font-size: 12px;padding-top: 10px;padding-left: 100px}
+.footer p:nth-of-type(3){font-size: 12px;padding-left: 100px}
+
+
+
+
+
+
+
+
+
+
+
+
+
