@@ -1,0 +1,58 @@
+
+https://m.postinsu.kr:20433
+
+psd 기본 
+640*1280 (세로길이 상관없이) 디자인 
+코딩 320 1/2 로 한다 
+
+720
+1080 
+
+이미지나 공간 => 퍼센트로 작업한다. 
+
+가로 이미지 3 
+33% 마지막 34% 
+33.3% 마지막 33.4% 
+
+가로 1
+100% 
+가로 4
+25% 
+
+아이콘또는 공간 짝수 픽셀로 작업한다. 
+640디자인15px  =>  코딩 320 :7.5px 
+640디자인 16px => 코딩 320: 8px
+
+
+a=> display:block 처리 한다. 
+이미지는 =>background 처리 
+이미지 사이즈는 background-size 이용해서 처리한다
+
+ background-size : cover contain auto 
+500*300 이미지 공간 250사이즈에 맞춰 넣는다. 
+ background-size : 
+
+ 
+숫자 메일 지도상의 주소 링크 막기 
+<meta name="format-detection" contents="telephone=no,address=no,email=no">
+
+
+전화걸기  <a href="tel:123-456-456">전화걸기</a>
+문자보내기 <a href="sms:010-456-456">문자보내기</a>
+
+*{-webkit-text-size-adjust:none} 모바일 가로모드 글자 사이즈 커지는것 방지 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+@charset 'utf-8';
+@import url(reset.css);
+*{-webkit-text-size-adjust:none}
+body{font-family: '돋움','dotum',sans-serif;font-size: 14px;color: #333}
+
+/*header*/
+header{background-color: #ff4c4f;position: relative;}
+header .logo a{display: block;height: 52px;background: url(../images/logo.png)no-repeat center 9px;background-size: auto 26px;font-size: 0;text-indent: -9999px;}
+header .btnAllMenu a{display: block;background: url(../images/btn_allmenu.png)no-repeat;background-size: 22px auto;font-size: 0;position: absolute;left: 10px;top: 12px;width: 22px;height: 17px;}
+header .btnLogin a{display: block;background: url(../images/btn_login.png)no-repeat;background-size: 21px auto;position: absolute;right: 10px;top: 12px;font-size: 0;width: 21px;height: 23px;}
+
+.gnb{overflow: hidden;border-bottom: 1px solid #666;}
+.gnb li{float: left;background: #fff;text-align: center;width: 25%;}
+.gnb li a{display: block;padding-top: 13px;padding-bottom: 11px;font-size: 13px;}
+
+/*visualArea*/
+.visualArea{overflow: hidden;}
+.visualArea .slide img{width: 100%;}
+
+/*mainNotice*/
+.mainNotice{overflow: hidden;padding: 10px 20px;}
+.mainNotice h2{float: left;width: 27px;height: 27px;background: url(../images/bg_mainNotice02.png)no-repeat;background-size: 27px auto;font-size: 0;}
+.mainNotice .link{float: left;width: calc(100% - 72px)}
+.mainNotice .link a{display: block;background:url(../images/bg_mainNoticeLink.png)no-repeat right center;background-size: auto 11px;font-size: 13px;padding: 6px 0 0 6px;}
+
+/*mainContract*/
+.mainContract{margin-top: 6px;border-top: 1px solid #ccc;}
+.mainContract ul{overflow: hidden;}
+.mainContract ul li{float: left;width: 33.3%;border-left: 1px solid #ccc;border-bottom: 1px solid #ccc;box-sizing: border-box;}
+.mainContract ul li:nth-child(3n){width: 33.4%;}
+.mainContract ul li:nth-child(3n+1){border-left: none;}
+
+.mainContract ul li a{display: block;text-align: center;padding-top: 70px;padding-bottom: 20px;}
+.mainContract ul li:nth-child(1) a{background: url(../images/bg_myContract01.png)no-repeat center 20px;background-size: auto 27px;}
+.mainContract ul li:nth-child(2) a{background: url(../images/bg_myContract02.png)no-repeat center 20px;background-size: auto 31px;}
+.mainContract ul li:nth-child(3) a{background: url(../images/bg_myContract03.png)no-repeat center 20px;background-size: auto 27px;}
+.mainContract ul li:nth-child(4) a{background: url(../images/bg_myContract04.png)no-repeat center 20px;background-size: auto 35px;}
+.mainContract ul li:nth-child(5) a{background: url(../images/bg_myContract05.png)no-repeat center 20px;background-size: auto 33px;}
+.mainContract ul li:nth-child(6) a{background: url(../images/bg_myContract06.png)no-repeat center 20px;background-size: auto 33px;}
+
+/*bannerSearch*/
+.bannerSearch .txt{background: url(../images/bg_bannerSearch.png)no-repeat 25px center;padding: 10px 0 10px 100px;background-size: 57px auto;}
+.bannerSearch .txt span{display: block;}
+.bannerSearch .txt span.pointTxt{color: #ff4c4f;}
+
+/*mainCallCenter*/
+.mainCallCenter ul{overflow: hidden;}
+.mainCallCenter ul li{width: 25%;text-align: center;float: left;}
+.mainCallCenter ul li a{display: block;padding-top: 80px;padding-bottom: 20px;font-size: 13px;}
+.mainCallCenter ul li:nth-child(1) a{background: url(../images/icon_shopping.png)no-repeat center 20px;background-size: 50px auto;}
+.mainCallCenter ul li:nth-child(2) a{background: url(../images/icon_banking.png)no-repeat center 20px;background-size: 50px auto;}
+.mainCallCenter ul li:nth-child(3) a{background: url(../images/icon_twitter.png)no-repeat center 20px;background-size: 50px auto;}
+.mainCallCenter ul li:nth-child(4) a{background: url(../images/icon_reservation.png)no-repeat center 20px;background-size: 50px auto;}
+
+/*기타링크*/
+.etcLink ul{overflow: hidden}
+.etcLink ul li{width: 25%;float: left;text-align: center}
+.etcLink ul li a{font-size: 13px;display: block;padding: 12px 0;}
+.etcLink ul li a span{display: block;border-right: 1px solid #ccc;}
+.etcLink ul li:last-child a span{border-right: none;}
+
+/*푸터*/
+footer{background-color: #666;height: 100px;}
+footer ul{overflow: hidden;text-align: center;}
+footer ul li{display: inline-block;text-align: center;width: 40%;margin-top: 10px;/*border: 1px solid #fff;*/}
+footer ul li::before{content: "";width: 2px;height: 15px;background: rgba(255,255,255,0.5);display: block;position: relative;top: 15px;right: 5px;}
+footer ul li:nth-of-type(1)::before{display: none;}
+footer ul li a{color: #fff;}
+footer p{text-align: center;color: #fff;margin-top: 15px;font-size: 10px;text-shadow: 1px 1px 3px #ddd}
+
+/*전체메뉴*/
+.allMenuMask{background-color: rgba(0,0,0,0.7);position: fixed;left: 0;top: 0;width: 0; height: 0;}
+
+.allMenu{background: #fff;position: fixed;left: -100%;top: 0;width: 85%;height: 100%;z-index: 10000;}
+.allMenuHead{background-color: #ff4c4f;position: relative;}
+.allMenuHead .allMenuLogo a{display: block;height: 48px;background: url(../images/logo.png)no-repeat center 9px;background-size: auto 27px;font-size: 0;}
+.allMenuHead .allMenuHome a{display: block;height: 48px;background: url(../images/bg_allMenuHome.png)no-repeat center; background-size: 13px auto;font-size: 0;width: 48px;height: 48px;position: absolute;right: 0;top: 0;}
+.allMenuHead .allMenuClose a{display: block;height: 48px;background: url(../images/bg_allMenuClose.png)no-repeat center; background-size: 13px auto;font-size: 0;width: 48px;height: 48px;position: absolute;left: 0;top: 0;}
+
+.allMenuContent{background: url(../images/allMenu.jpg)no-repeat;background-size: 96px auto;height: 100%;overflow: hidden;position: relative;}
+
+.tab_allMenuTitle{float: left;width: 96px;}
+.tab_allMenuTitle li a{display: block;padding: 55px 0 10px;text-align: center;}
+.tab_allMenuTitle li:nth-child(1) a{background: url(../images/bg_allMenuList01.png)no-repeat center 18px;background-size: 23px auto;}
+.tab_allMenuTitle li:nth-child(2) a{background: url(../images/bg_allMenuList02.png)no-repeat center 18px;background-size: 23px auto;}
+.tab_allMenuTitle li:nth-child(3) a{background: url(../images/bg_allMenuList03.png)no-repeat center 18px;background-size: 23px auto;}
+.tab_allMenuTitle li:nth-child(4) a{background: url(../images/bg_allMenuList04.png)no-repeat center 18px;background-size: 23px auto;}
+
+.tab_allMenuTitle li.on a{background-color: #592f22;color: #fff;}
+.tab_allMenuTitle li.on:nth-child(1) a{background-image: url(../images/bg_allMenuList01_on.png)}
+.tab_allMenuTitle li.on:nth-child(2) a{background-image: url(../images/bg_allMenuList02_on.png)}
+.tab_allMenuTitle li.on:nth-child(3) a{background-image: url(../images/bg_allMenuList03_on.png)}
+.tab_allMenuTitle li.on:nth-child(4) a{background-image: url(../images/bg_allMenuList04_on.png)}
+
+.tab_allMenuList{position: absolute;left: 96px;top: 0;height: 100%;width: calc(100% - 96px);}
+.tab_content{position: absolute;left: 0;top: 0;width: 100%;box-sizing: border-box;padding-top: 26px;padding-left: 19px;display: none;}
+
+#tab_con1{display: block;}
+.depthList>li{position: relative;}
+.depthList>li>a{display: block;padding: 12px 20px 9px 6px;border-bottom: 1px solid #d7d7d7;}
+.depthList>li>a>span{position: absolute;right: 5px;top: 9px;width: 18px;height: 18px;background: url(../images/allMenu_open.png)no-repeat center;background-size: 12px auto;font-size: 0}
+.depthList>li>a>span.open{background-image: url(../images/allMenu_close.png)}
+
+.depthList ul{padding: 2px 12px 6px;background: #f9f9f9;border-bottom: 1px solid #d7d7d7;}
+.depthList ul li a{display: block;padding: 13px 0 12px;}
+.depthList>li>ul{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
