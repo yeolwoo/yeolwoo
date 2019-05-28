@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>반응형 웹사이트</title>
+    <script src="libs/jquery-1.12.4.min.js"></script>
+    <script src="libs/slickSlider/slick.min.js"></script>
+    <link href="libs/slickSlider/slick.css" rel="stylesheet"> 
+    <link href="libs/slickSlider/slick-theme.css" rel="stylesheet">
+    <script src="libs/bxslider/jquery.bxslider.min.js"></script>
+    <link href="libs/bxslider/jquery.bxslider.min.css" rel="stylesheet" type="text/css">
+    <script src="js/slider1.js"></script>
+    <script src="js/index.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="header_banner">
+            <div class="center1200">
+                <img src="img/headeranner.png" alt="프리미엄 세일 이벤트" class="headerbannerimg">
+                <div class="close">
+                    <a href="#">EVENT CLOSE</a>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-top">
+                <div class="center1200">
+                    <h1><a href="index.html">낚시타운</a></h1>
+                    <ul class="maingnb clearfix">
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                        <li>
+                            <a href="#">장바구니</a>
+                        </li>
+                        <li>
+                            <a href="#">주문배송조회</a>
+                        </li>
+                        <li>
+                            <a href="#">마이페이지</a>
+                        </li>
+                    </ul>
+                    <div class="meunbar">
+                        <a href="#">메뉴</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="center1200">
+                    <ul class="maingnbbt clearfix">
+                        <li>
+                            <a href="sub.html">바다낚시</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="sub.html">낚시대</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">찌</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">바다바늘</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">뜰채,뜰망</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">살림망,로프</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">바다소품</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">부품</a>
+                                </li>
+                                <li>
+                                    <a href="sub.html">받침대,클램프,망치</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">민물낚시</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">낚시대</a>
+                                </li>
+                                <li>
+                                    <a href="#">받침대</a>
+                                </li>
+                                <li>
+                                    <a href="#">바늘</a>
+                                </li>
+                                <li>
+                                    <a href="#">찌,찌케이스</a>
+                                </li>
+                                <li>
+                                    <a href="#">소품</a>
+                                </li>
+                                <li>
+                                    <a href="#">떡밥,떡밥그릇,계량컵</a>
+                                </li>
+                                <li>
+                                    <a href="#">받침틀,수초제거기</a>
+                                </li>
+                                <li>
+                                    <a href="#">좌대,좌대용품</a>
+                                </li>
+                                <li>
+                                    <a href="#">얼음장비</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">루어낚시</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">배스,쏘가리대</a>
+                                </li>
+                                <li>
+                                    <a href="#">농어,광어,우럭대</a>
+                                </li>
+                                <li>
+                                    <a href="#">가물치대</a>
+                                </li>
+                                <li>
+                                    <a href="#">우럭,참돔,갈치,지깅대</a>
+                                </li>
+                                <li>
+                                    <a href="#">예깅,쭈구미,문어대</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">슬로우지깅,파밍 루어대</a>
+                                </li>
+                                <li>
+                                    <a href="#">웜,루어,에기,지그</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">릴</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">스피닝 릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다용 베이트릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">베스용 베이트릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">전동릴,배터리</a>
+                                </li>
+                                <li>
+                                    <a href="#">지깅,우럭장구통릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">가물치용 장구통릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">릴케이스,오일</a>
+                                </li>
+                                <li>
+                                    <a href="#">보조스풀,핸들</a>
+                                </li>
+                                <li>
+                                    <a href="#">브레이크릴</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">낚시줄</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">바다낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층 낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">대용량 원줄500m이상</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">PE 합사줄(루어,바다)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">가방</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">바다가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다보조가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층가방보조</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">쿨러/밑밥통</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">쿨러,아이스팩</a>
+                                </li>
+                                <li>
+                                    <a href="#">밑밥통,미끼통</a>
+                                </li>
+                                <li>
+                                    <a href="#">두레박</a>
+                                </li>
+                                <li>
+                                    <a href="#">밑밥주걱,크릴커터 등</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">의류</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">낚시복</a>
+                                </li>
+                                <li>
+                                    <a href="#">내피</a>
+                                </li>
+                                <li>
+                                    <a href="#">구명복</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물조끼,루어조끼</a>
+                                </li>
+                                <li>
+                                    <a href="#">바지,티셔츠</a>
+                                </li>
+                                <li>
+                                    <a href="#">힙가드</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다장화,단화</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물장화,단화</a>
+                                </li>
+                                <li>
+                                    <a href="#">모자,모자집게</a>
+                                </li>
+                                <li>
+                                    <a href="#">장갑</a>
+                                </li>
+                                <li>
+                                    <a href="#">수건,스카프,토시</a>
+                                </li>
+                                <li>
+                                    <a href="#">넥코드</a>
+                                </li>
+                                <li>
+                                    <a href="#">편광안경</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">공통장비</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">태클박스</a>
+                                </li>
+                                <li>
+                                    <a href="#">가위,회칼,핀온릴,커터</a>
+                                </li>
+                                <li>
+                                    <a href="#">의자,파라솔,텐트</a>
+                                </li>
+                                <li>
+                                    <a href="#">기포기,건전지</a>
+                                </li>
+                                <li>
+                                    <a href="#">후레쉬,촉광기,접어동</a>
+                                </li>
+                                <li>
+                                    <a href="#">플라이어,궤미</a>
+                                </li>
+                                <li>
+                                    <a href="#">집케,저울</a>
+                                </li>
+                                <li>
+                                    <a href="#">가스히터,손난로</a>
+                                </li>
+                                <li>
+                                    <a href="#">바늘결속기</a>
+                                </li>
+                                <li>
+                                    <a href="#">기타용품</a>
+                                </li>
+                                <li>
+                                    <a href="#">세척제,오일</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">세트</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">바다낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층 낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물루어낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다루어낚시세트</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">특가</a>
+                            <ul class="subgnb">
+                                <li>
+                                    <a href="#">바다낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">수입및국산릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다루어낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물루어낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">가방,보조가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">쿨러,밑밥통,밑밥주걱</a>
+                                </li>
+                                <li>
+                                    <a href="#">의류,신발,모자,편광안경</a>
+                                </li>
+                                <li>
+                                    <a href="#">공통장비</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" class="search">검색</a>
+                    <div id="seach_bar">dsf</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mainbanner">
+                <div class="mainbanner_slider">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/mainbanner1.png" alt="CM 군도기 플러스"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/mainbanner222%20(1).png" alt="시마노 10%할인"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/mainbanner333.png" alt="시마노 올 라운드 모델"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mdpick">
+               <div class="center1200">
+                    <h2>MD'S PICK</h2>
+                    <p>쇼핑몰 엠디가 직접 엄선한 테마별 추천상품</p>
+                    <ul class="mdlist clearfix">
+                        <li>
+                            <a href="#">바다낚시 추천상품</a>
+                        </li>
+                        <li>
+                            <a href="#">민물낚시 추천상품</a>
+                        </li>
+                        <li>
+                            <a href="#">루어낚시 추천상품</a>
+                        </li>
+                        <li>
+                            <a href="#">기획상품</a>
+                        </li>
+                    </ul>
+                    <div class="listmenu listmenu1">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="product menu1"><img src="img/mdpick1.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>96,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu2"><img src="img/mdpick2.png" alt="낚시대"></div>
+                                    <p>신신피아트 티타늄 줌 선구자 3.2호</p>
+                                    <p>272,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu3"><img src="img/mdpick3.png" alt="가방"></div>
+                                    <p>시선21 민물낚시가방 ST-04 ST-05 ST-04F 
+                                        ST-05F</p>
+                                    <p>60,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu4"><img src="img/mdpick4.png" alt="낚시대"></div>
+                                    <p>S컴퍼니 참 에어 옥토퍼스 바다루어대</p>
+                                    <p>252,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu5"><img src="img/mdpick5.png" alt="낚시대"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>34,680원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu6"><img src="img/mdpick6.png" alt="찌"></div>
+                                    <p>아크 고리찌 잠행 SD-028 JH-028A 
+                                        028B 030A 026D</p>
+                                    <p>5,870원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu7"><img src="img/mdpick7.png" alt="찌"></div>
+                                    <p>찌스 대형 참돔 전자찌/주야겸용</p>
+                                    <p>10,200원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu8"><img src="img/mdpick8.png" alt="낚시대"></div>
+                                    <p>바낙스 GMS 천명 리미티드 뜰채/
+                                        고밀도 고탄성/고착방</p>
+                                    <p>232,000원</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="listmenu listmenu2">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="product menu1"><img src="img/new-5.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>96,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu2"><img src="img/new-6.png" alt="뜰채"></div>
+                                    <p>신신피아트 티타늄 줌 선구자 3.2호</p>
+                                    <p>272,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu3"><img src="img/new-7.png" alt="뜰채"></div>
+                                    <p>시선21 민물낚시가방 ST-04 ST-05 ST-04F 
+                                        ST-05F</p>
+                                    <p>60,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu4"><img src="img/new-8.png" alt="뜰채"></div>
+                                    <p>S컴퍼니 참 에어 옥토퍼스 바다루어대</p>
+                                    <p>252,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu5"><img src="img/new-9.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>34,680원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu6"><img src="img/new-10.png" alt="뜰채"></div>
+                                    <p>아크 고리찌 잠행 SD-028 JH-028A 
+                                        028B 030A 026D</p>
+                                    <p>5,870원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu7"><img src="img/new-11.png" alt="뜰채"></div>
+                                    <p>찌스 대형 참돔 전자찌/주야겸용</p>
+                                    <p>10,200원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu8"><img src="img/new-12.png" alt="뜰채"></div>
+                                    <p>바낙스 GMS 천명 리미티드 뜰채/
+                                        고밀도 고탄성/고착방</p>
+                                    <p>232,000원</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="listmenu listmenu3">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="product menu1"><img src="img/mdpick8.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>96,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu2"><img src="img/mdpick7.png" alt="뜰채"></div>
+                                    <p>신신피아트 티타늄 줌 선구자 3.2호</p>
+                                    <p>272,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu3"><img src="img/mdpick6.png" alt="뜰채"></div>
+                                    <p>시선21 민물낚시가방 ST-04 ST-05 ST-04F 
+                                        ST-05F</p>
+                                    <p>60,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu4"><img src="img/mdpick5.png" alt="뜰채"></div>
+                                    <p>S컴퍼니 참 에어 옥토퍼스 바다루어대</p>
+                                    <p>252,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu5"><img src="img/mdpick4.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>34,680원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu6"><img src="img/mdpick3.png" alt="뜰채"></div>
+                                    <p>아크 고리찌 잠행 SD-028 JH-028A 
+                                        028B 030A 026D</p>
+                                    <p>5,870원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu7"><img src="img/mdpick2.png" alt="뜰채"></div>
+                                    <p>찌스 대형 참돔 전자찌/주야겸용</p>
+                                    <p>10,200원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu8"><img src="img/mdpick1.png" alt="뜰채"></div>
+                                    <p>바낙스 GMS 천명 리미티드 뜰채/
+                                        고밀도 고탄성/고착방</p>
+                                    <p>232,000원</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="listmenu listmenu4">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">
+                                    <div class="product menu1"><img src="img/new-12.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>96,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu2"><img src="img/new-11.png" alt="뜰채"></div>
+                                    <p>신신피아트 티타늄 줌 선구자 3.2호</p>
+                                    <p>272,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu3"><img src="img/new-10.png" alt="뜰채"></div>
+                                    <p>시선21 민물낚시가방 ST-04 ST-05 ST-04F 
+                                        ST-05F</p>
+                                    <p>60,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu4"><img src="img/new-9.png" alt="뜰채"></div>
+                                    <p>S컴퍼니 참 에어 옥토퍼스 바다루어대</p>
+                                    <p>252,000원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu5"><img src="img/new-8.png" alt="뜰채"></div>
+                                    <p>바다 뜰채세트 모음3/뜰채와 뜰채망/
+                                        해동 바낙스 NS</p>
+                                    <p>34,680원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu6"><img src="img/new-7.png" alt="뜰채"></div>
+                                    <p>아크 고리찌 잠행 SD-028 JH-028A 
+                                        028B 030A 026D</p>
+                                    <p>5,870원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu7"><img src="img/new-6.png" alt="뜰채"></div>
+                                    <p>찌스 대형 참돔 전자찌/주야겸용</p>
+                                    <p>10,200원</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="product menu8"><img src="img/new-5.png" alt="뜰채"></div>
+                                    <p>바낙스 GMS 천명 리미티드 뜰채/
+                                        고밀도 고탄성/고착방</p>
+                                    <p>232,000원</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="best">
+               <h2>WEEKLY BEST</h2>
+                <ul class="bxslider">
+                    <li>
+                        <a href="#"><img src="img/best1.png" alt="릴"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best2.png" alt="릴가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>CK로드 전동릴 케이스 소형 중형(3000번) 대형(4000번) </p>
+                            <p>18,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best3.png" alt="릴"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best4.png" alt="릴"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best5.png" alt="벨트"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best6.png" alt="가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best7.png" alt="가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best8.png" alt="가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best9.png" alt="가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/best10.png" alt="가방"></a>
+                        <span class="imghove">
+                           <div>
+                            <p>바낙스 캘리온200 라이트지깅용 라운드베이트릴 </p>
+                            <p>79,000</p>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="botoom_banner">
+                <a href="#">
+                   <picture>
+                        <source media="(max-width:767px)" srcset="img/banner2.png">
+                        <img src="img/salebanner.png" alt="재고할인전">
+                   </picture>
+                   
+                </a>
+            </div>
+            <div class="new">
+                <div class="center1200">
+                   <h2>NEW ARRIVAL</h2>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg1"><img src="img/new1.png" alt="가방"></div>
+                                <p>시마노 BK-124R</p>
+                                <p>94,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg2"><img src="img/new2.png" alt="가방"></div>
+                                <p>시마노 염월 BB(16) 윤성정품 B69M-S</p>
+                                <p>185,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg3"><img src="img/new3.png" alt="가방"></div>
+                                <p>시마노 오시아 콘퀘스트 (15)윤성정품 200HG 우핸들</p>
+                                <p>590,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg4"><img src="img/new4.png" alt="가방"></div>
+                                <p>시마노 VF-111Q</p>
+                                <p>445,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg5"><img src="img/new5.png" alt="가방"></div>
+                                <p>라팔라스포츠맨 "카라부츠"</p>
+                                <p>65,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="newimg newimg6"><img src="img/new6.png" alt="가방"></div>
+                                <p>라팔라 RCD 자석스프링 플라이어</p>
+                                <p>33,000원</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+           <div class="center1200">
+                <div class="logo">
+                    <h1><a href="index.html">낚시타운</a></h1>
+                </div>
+                <div class="footer_text">
+                    <div class="footer_top">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">홈</a>
+                            </li>
+                            <li>
+                                <a href="#">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보취급방침</a>
+                            </li>
+                            <li>
+                                <a href="#">이용안내</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_botoom">
+                        <ul class="clearfix">
+                            <li>법인명(상호) : 낚시타운</li>
+                            <li>대표자(성명) : 전은숙</li>
+                            <li>사업자 등록번호 안내 : [416-03-48821]</li>
+                            <li>통신판매업 신고 2005-14</li>
+                        </ul>
+                        <ul class="clearfix">
+                            <li>전화 : 061-744-4222</li>
+                            <li>팩스 : 061-744-4249</li>
+                            <li>주소 : 540-540 전남 순천시 덕월동 449-6번지 </li>
+                        </ul>
+                        <p>개인정보관리책임자 : 전은숙(naksitown@gmail.com)</p>
+                        <p>Contact bada4222@gmail.com for more information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submeun_bg"></div>
+        <div class="submeun">
+           <div class="submeun_header">
+               <div>로그인 이용시 많은 혜택이 있습니다.</div>
+               <a href="#">닫기</a>
+           </div>
+            <div class="allmeun">
+                <ul class="allmeun_sub clearfix">
+                        <li>
+                            <a href="#">바다낚시</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="sub.html">낚시대</a>
+                                </li>
+                                <li>
+                                    <a href="#">찌</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다바늘</a>
+                                </li>
+                                <li>
+                                    <a href="#">뜰채,뜰망</a>
+                                </li>
+                                <li>
+                                    <a href="#">살림망,로프</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다소품</a>
+                                </li>
+                                <li>
+                                    <a href="#">부품</a>
+                                </li>
+                                <li>
+                                    <a href="#">받침대,클램프,망치</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">민물낚시</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">낚시대</a>
+                                </li>
+                                <li>
+                                    <a href="#">받침대</a>
+                                </li>
+                                <li>
+                                    <a href="#">바늘</a>
+                                </li>
+                                <li>
+                                    <a href="#">찌,찌케이스</a>
+                                </li>
+                                <li>
+                                    <a href="#">소품</a>
+                                </li>
+                                <li>
+                                    <a href="#">떡밥,떡밥그릇,계량컵</a>
+                                </li>
+                                <li>
+                                    <a href="#">받침틀,수초제거기</a>
+                                </li>
+                                <li>
+                                    <a href="#">좌대,좌대용품</a>
+                                </li>
+                                <li>
+                                    <a href="#">얼음장비</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">루어낚시</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">배스,쏘가리대</a>
+                                </li>
+                                <li>
+                                    <a href="#">농어,광어,우럭대</a>
+                                </li>
+                                <li>
+                                    <a href="#">가물치대</a>
+                                </li>
+                                <li>
+                                    <a href="#">우럭,참돔,갈치,지깅대</a>
+                                </li>
+                                <li>
+                                    <a href="#">예깅,쭈구미,문어대</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">슬로우지깅,파밍 루어대</a>
+                                </li>
+                                <li>
+                                    <a href="#">웜,루어,에기,지그</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">릴</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">스피닝 릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다용 베이트릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">베스용 베이트릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">전동릴,배터리</a>
+                                </li>
+                                <li>
+                                    <a href="#">지깅,우럭장구통릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">가물치용 장구통릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">릴케이스,오일</a>
+                                </li>
+                                <li>
+                                    <a href="#">보조스풀,핸들</a>
+                                </li>
+                                <li>
+                                    <a href="#">브레이크릴</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">낚시줄</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">바다낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층 낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">대용량 원줄500m이상</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어낚시줄</a>
+                                </li>
+                                <li>
+                                    <a href="#">PE 합사줄(루어,바다)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">가방</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">바다가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다보조가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">루어가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층가방보조</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">쿨러/밑밥통</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">쿨러,아이스팩</a>
+                                </li>
+                                <li>
+                                    <a href="#">밑밥통,미끼통</a>
+                                </li>
+                                <li>
+                                    <a href="#">두레박</a>
+                                </li>
+                                <li>
+                                    <a href="#">밑밥주걱,크릴커터 등</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">의류</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">낚시복</a>
+                                </li>
+                                <li>
+                                    <a href="#">내피</a>
+                                </li>
+                                <li>
+                                    <a href="#">구명복</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물조끼,루어조끼</a>
+                                </li>
+                                <li>
+                                    <a href="#">바지,티셔츠</a>
+                                </li>
+                                <li>
+                                    <a href="#">힙가드</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다장화,단화</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물장화,단화</a>
+                                </li>
+                                <li>
+                                    <a href="#">모자,모자집게</a>
+                                </li>
+                                <li>
+                                    <a href="#">장갑</a>
+                                </li>
+                                <li>
+                                    <a href="#">수건,스카프,토시</a>
+                                </li>
+                                <li>
+                                    <a href="#">넥코드</a>
+                                </li>
+                                <li>
+                                    <a href="#">편광안경</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">공통장비</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">태클박스</a>
+                                </li>
+                                <li>
+                                    <a href="#">가위,회칼,핀온릴,커터</a>
+                                </li>
+                                <li>
+                                    <a href="#">의자,파라솔,텐트</a>
+                                </li>
+                                <li>
+                                    <a href="#">기포기,건전지</a>
+                                </li>
+                                <li>
+                                    <a href="#">후레쉬,촉광기,접어동</a>
+                                </li>
+                                <li>
+                                    <a href="#">플라이어,궤미</a>
+                                </li>
+                                <li>
+                                    <a href="#">집케,저울</a>
+                                </li>
+                                <li>
+                                    <a href="#">가스히터,손난로</a>
+                                </li>
+                                <li>
+                                    <a href="#">바늘결속기</a>
+                                </li>
+                                <li>
+                                    <a href="#">기타용품</a>
+                                </li>
+                                <li>
+                                    <a href="#">세척제,오일</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">세트</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">바다낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층 낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물루어낚시세트</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다루어낚시세트</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">특가</a>
+                            <ul class="meunsub_gnb">
+                                <li>
+                                    <a href="#">바다낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물,중층낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">수입및국산릴</a>
+                                </li>
+                                <li>
+                                    <a href="#">바다루어낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">민물루어낚시</a>
+                                </li>
+                                <li>
+                                    <a href="#">가방,보조가방</a>
+                                </li>
+                                <li>
+                                    <a href="#">쿨러,밑밥통,밑밥주걱</a>
+                                </li>
+                                <li>
+                                    <a href="#">의류,신발,모자,편광안경</a>
+                                </li>
+                                <li>
+                                    <a href="#">공통장비</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div id="popup">
+        <h1>팝업창</h1>
+        <div class="pop_close">
+           <p>
+                본사이트는 상업적인 목적인 아닌 개인 포트폴리오 용도로 만들어졌습니다.
+                홈페이지의 일부 내용고 이미지 등은 출처가 따로 <br>있음을 밝힙니다.
+           </p>
+            <p>
+                <input type="checkbox" id="pop_chk" name="pop_chk">
+                <label>오늘 이창은 다시 보지 않기</label>
+                <button class="closebtn">닫기</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
